@@ -164,7 +164,7 @@ a:focus {
 
 .work_section {
   /* background-color: #1c1c1c; */
-  background-image: url("../images/BG_image_03.png");
+  background-image: url("../images/latest.png");
   color: #ffffff;
   background-size: cover;
 }
@@ -234,7 +234,7 @@ a:focus {
 
 .client {
   /* background-color: #1c1c1c; */
-  background-image: url("../images/BG_image_03.png");
+  background-image: url("../images/latest.png");
   color: #ffffff;
   background-size: cover;
 }
@@ -245,7 +245,7 @@ a:focus {
 .service_section {
   text-align: center;
   /* background-color: #1c1c1c; */
-  background-image: url("../images/BG_image_02.png");
+  background-image: url("../images/latest.png");
   color: #ffffff;
   background-size: cover;
   padding: 30px;
@@ -358,7 +358,7 @@ a:focus {
 .team_section {
   text-align: center;
   /* background-color: #1c1c1c; */
-  background-image: url("../images/BG_image_02.png");
+  background-image: url("../images/latest.png");
   color: #ffffff;
   background-size: cover;
   padding: 30px;
@@ -586,7 +586,8 @@ a:focus {
 }
 
 .formsect {
-  background-image: url("../images/BG_image_02.png");
+  background-image: url("../images/latest.png");
+  background-size: cover;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -597,7 +598,7 @@ a:focus {
   /* color: wheat; */
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 950px;
   justify-content: center;
   align-items: center;
   padding: 10px;
@@ -657,10 +658,11 @@ textarea {
 
 .prevBtn,
 .nextBtn {
-  padding: 10px;
+  /* padding: 10px; */
   cursor: pointer;
   color: white;
   font-size: 24px;
+  margin-bottom: 40%;
 }
 
 .prevBtn {
@@ -669,4 +671,34 @@ textarea {
 
 .nextBtn {
   /* margin-right: 10px; */
+}
+ 
+@media screen and (max-width: 1000px) {
+  .service_section {
+    width: 120%;
+    /* overflow-x: hidden; */
+  }
+
+  .formsect{
+    width: 120%;
+  }
+
+  .work_section{
+    width: 120%;
+  }
+
+
+  .hero_area{
+    width: 120%;
+  }
+
+  .team_section{
+    width: 120%;
+  }
+
+  .info_section{
+    width: 120%;
+  }
+
+
 }

@@ -7,11 +7,12 @@ import Meet from './Components/Meet'
 import Footer from "./Components/Footer";
 import Connect from "./Components/Connect";
 import Connnect from "./Components/Connnect";
+import styles from "./Components/Main.module.css"
 // import styles from ''
 
 function App() {
   return (
-    <>
+    <div className={styles.app}>
     <Navbar/>
     <Home/>
     <Work/>
@@ -21,7 +22,7 @@ function App() {
     <Connnect/>
     {/* <Connect/> */}
     <Footer/>
-    </>
+    </div>
   );
 }
 
